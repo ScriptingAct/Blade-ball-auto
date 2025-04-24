@@ -46,7 +46,7 @@ RunService.PreSimulation:Connect(function()
       Parried = true
       Cooldown = tick()
       
-      if (tick() - Cooldown) >= 1.15 then
+      if (tick() - Cooldown) >= 1.25 then
         Parried = false
       end
     end
