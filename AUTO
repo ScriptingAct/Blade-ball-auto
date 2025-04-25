@@ -5,7 +5,7 @@ local VirtualInputManager = game:GetService("VirtualInputManager") or game:FindF
 local Player = Players.LocalPlayer
 
 local Cooldown = tick()
-local IsParried = false
+local IsParried = true
 local Connection = nil
 
 local function GetBall()
